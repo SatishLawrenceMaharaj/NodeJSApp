@@ -6,9 +6,10 @@ app.use(express.json());
 
 // Sample data (in place of a database)
 let items = [
-    { id: 1, name: 'Item 1', description: 'Satish Maharaj RBL DevOps Interview' },
-    { id: 2, name: 'Item 2', description: 'Get job as DevOps Engineer' },
-
+    { id: 1, name: 'Item 1', description: 'Satish Maharaj RBL DevOps Interview', date: '2024-10-30' },
+    { id: 2, name: 'Item 2', description: 'Get job as DevOps Engineer', date: '2024-11-04' },
+    { id: 3, name: 'Item 3', description: 'Start working as DevOps Engineer', date: '2024-12-11' },
+    { id: 4, name: 'Item 4', description: 'Make lasting positive impact', date: '2024-12-11' },
 ];
 
 // CREATE - Add a new item
